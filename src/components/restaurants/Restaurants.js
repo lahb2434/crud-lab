@@ -15,9 +15,9 @@ class Restaurants extends Component {
   render() {
     
     return(  
-      <ul>
+      <h3>
         {this.createRestaurants(this.props)}
-      </ul>
+      </h3>
     );
   }
 };

@@ -10,11 +10,11 @@ class Restaurant extends Component {
     const {restaurant} = this.props
     
     return (
-        <li>
-          {restaurant.name}
+        <div>
+          <text>{restaurant.name}</text>
           <button onClick={() => this.props.deleteRestaurant(restaurant.id)}> X </button>
           <ReviewsContainer restaurantId={restaurant.id}/>
-        </li>
+        </div>
       
     );
   }

@@ -9,14 +9,12 @@ class Reviews extends Component {
         return <Review 
         key={review.id} 
         review={review} 
-        restaurantId={props.restaurantId }
         deleteReview={props.deleteReview}/> 
       }
     }
   )
   
   render() {
-    debugger;
     return(  
       <ul>
         {this.createReviews(this.props)}

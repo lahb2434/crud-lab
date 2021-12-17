@@ -16,7 +16,6 @@ class ReviewsContainer extends Component {
 }
 
 const mapStateToProps = (state) => {
-  debugger;
   return {reviews: state.reviews}
 }
 
